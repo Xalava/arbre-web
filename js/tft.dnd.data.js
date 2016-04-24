@@ -17,8 +17,8 @@
                             , url: 'http://www.html.net/tutorials/html/'
 	                    }
 		                , {
-		                    label: 'Sublime Text 3, un bon éditeur de texte'
-			                , url: 'http://www.sublimetext.com/'
+		                    label: 'Sublime Text et Atom'
+			                , url: 'http://lesbricodeurs.fr/articles/Sublime-Text-vs-Atom/'
 		                }
 		                		                , {
 		                    label: 'Notre prochaine session Web 101'
@@ -64,7 +64,7 @@
 						}
 					]
 	                , rankDescriptions: [
-                        'Etre familié avec les notions de bases de la mise en forme CSS et le concept de box.'
+                        'Etre familier avec les notions de bases de la mise en forme CSS et le concept de box.'
                         , 'Vous connaissez les media queries et le responsive design  pour vous adapter à tous les supports'
 	                ]
                     , description: 'Cascading Style Sheets (CSS) est un langage pour changer visuellement les pages webs.  Le CSS vise des élements du HTML pour modifier la couleur, la taille de la police...'
@@ -94,10 +94,10 @@
 	                ]
 					, maxPoints: 2
 	                , rankDescriptions: [
-                        'You are familiar with variables and nesting.'
-                        , 'You can use advanced tools like mix-ins and sometimes write your own.'
+                        'Vous êtes à l\'aise avec les varialbesl et le nesting'
+                        , 'Vous pouvez utiliser des outils avancés comme les mix-ins et parfois écrire les votres.'
 	                ]
-                    , description: 'Preprocessors like LESS and SASS help you write more structured and efficient CSS by adding features like variables, functions, and nesting.'
+                    , description: 'Les preprocesseurs comme LESS et SASS permettent d\'ajouter des fonctionnalités au CSS comme les fonctions, les variables..'
 					, stats: [
 						{
 							title: 'Sens du visuel'
@@ -113,7 +113,7 @@
 					id: 4
 					, title: 'Maitrise du web design'
 					, dependsOn: [2]
-                    , description: 'You can bring design ideas to life by translating them into the requisite HTML document with CSS styles.'
+                    , description: 'Vous pouvez réaliser vos idées en les transformant en page HTML avec le CSS adapté'
 					, stats: [
 						{
 							title: 'Sens du visuel'
@@ -131,22 +131,22 @@
 			                , url: 'http://www.codecademy.com/tracks/jquery'
 		                }
 	                    , {
-	                        label: 'jQuery Category: Manipulation'
+	                        label: 'jQuery : Manipulation'
                             , url: 'http://api.jquery.com/category/manipulation/'
 	                    }
 	                    , {
-	                        label: 'jQuery Category: Effects'
+	                        label: 'jQuery : Effects'
                             , url: 'http://api.jquery.com/category/effects/'
 	                    }
 	                ]
 					, maxPoints: 3
 	                , rankDescriptions: [
-                        'You are familiar with manipulating the document object model (DOM) - modifying values, content, properties, entire elements, etc.'
-                        , 'You are familiar with adding standard animation to a web page.'
-                        , 'You are familiar with creating and adding custom effects to a web page.'
+                        'Vous êtes familier avec la manipulation du DOM (Document Object Model) - modifier des valeurs, contenus .. '
+                        , 'Vous êtes familier avec l\'ajout d\'une animation à une page web' 
+                        , 'Vous êtes familier la création et l\'ajout d\'effets originaux à une page'
 	                ]
-                    , description: 'jQuery provides techniques and methods for client-side manipulation of the web page elements.'
-					, talents: ['Sizzlin']
+                    , description: 'jQuery fourni des techniques et méthodes pour la manipulation des éléments d\'une page web, coté client'
+					, talents: ['Effet Wow']
 					, stats: [
 						{
 							title: 'Sens du visuel'
@@ -177,7 +177,7 @@
                             , url: 'http://www.bing.com/toolbox/webmaster'
 	                    }
 	                ]
-                    , description: 'The process of affecting the ranking/visibility of a website or web page in a search engines results.'
+                    , description: 'Processus pour changer le classement et la visibilité d\'une page dans les résultats des moteurs de recherche'
 					, stats: [
 						{
 							title: 'Webmarketing'
@@ -211,7 +211,7 @@
                             , url: 'http://www.bing.com/toolbox/seo-analyzer'
 	                    }
 	                ]
-                    , description: 'Analytics provide performance data about a website as well as information that is usable to measure the success of SEO.'
+                    , description: 'Analytics fournit des informations sur la performance d\'une page et le parcours utilisateur'
 					, stats: [
 						{
 							title: 'Webmarketing'
@@ -247,7 +247,7 @@
 	                    	, url: 'http://javascript.crockford.com/'
 	                    }
 	                ]
-                    , description: 'JavaScript is the dominant language for client-side programming.  It executes in the user&rsquo;s browser to manipulate the HTML document after it has loaded.  This may be as simple as showing hidden elements, or more advanced like contacting the server to load more data.'
+                    , description: 'Javascript le langage executé principalement coté client. Il peut aussi bien modifier des éléments visuels de la page que faire des appels serveur pour charger de nouvelles informations'
 					, stats: [
 						{
 							title: 'Design'
@@ -259,12 +259,18 @@
 					id: 9
 					, title: 'JS bibliothèques & Frameworks'
 					, dependsOn: [8]
+					, links: [
+	                    {
+	                        label: 'Rejoignez nous les lundi pour étudier AngularJS!'
+                            , url: 'http://www.meetup.com/fr-FR/Design-et-technologie-pour-projets-citoyens/'
+	                    },
+	                ]
 					, maxPoints: 2
 	                , rankDescriptions: [
-                        'You tap into libraries like jQuery, MooTools, Prototype, Dojo, and YUI to streamline your work.'
-                        , 'You use frameworks like KnockoutJS, Ember.js, AngularJS, and Backbone.js to structure complex frontend functionality.'
+                        'Vous utilisez des bibliothèques comme jQuery, MooTools, Prototype, Dojo, et YUI pour accellerer votre travail'
+                        , 'Vous utilisez des Frameworks comme Ember.js, AngularJS, and Backbone.js pour créer des fonctionnalités complexes.'
 	                ]
-                    , description: 'Once you&rsquo;re comfortable with the JavaScript language, there&rsquo;s a multitude of libraries and frameworks to accomplish common tasks and enhance your development.'
+                    , description: 'Une fois que vous êtes à l\'aise avec le Javascript, il y a une multitude de Frameworks a étudier pour transformer vos pages en véritables applications.'
 					, stats: [
 						{
 							title: 'Design'
@@ -275,11 +281,11 @@
 							, value: 1
 						}
 					]
-					, talents: ['Nimble']
+					, talents: ['Malin']
 				},
 				{
 					id: 10
-					, title: 'Maitrise du développement Frontend'
+					, title: 'Maîtrise du développement Frontend'
 					, dependsOn: [9]  
 					, stats: [
 						{
@@ -674,7 +680,7 @@
 					, maxPoints: 2
 	                , rankDescriptions: [
                         'You are capable of setting up your application in a new environment.'
-                        , 'You are familiar with server-side URL rewriting tools like mod_rewrite.'
+                        , 'Vous êtes familier avec server-side URL rewriting tools like mod_rewrite.'
 	                ]
                     , description: 'Even the simplest web applications will require a server to run them.  There are several popular and fully-featured web servers to choose from, though your application\'s server-side programming language may limit your options.  Learning to manage and configure your web server will help you keep your site up and running smoothly.'
                     , stats: [
