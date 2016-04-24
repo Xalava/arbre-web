@@ -20,7 +20,7 @@
 		                    label: 'Sublime Text et Atom'
 			                , url: 'http://lesbricodeurs.fr/articles/Sublime-Text-vs-Atom/'
 		                }
-		                		                , {
+		            	, {
 		                    label: 'Notre prochaine session Web 101'
 			                , url: 'http://lesbricodeurs.fr/evenements/'
 		                }
@@ -222,7 +222,7 @@
 							, value: 2
 						}
 					]
-					, talents: ['Crafty']
+					, talents: ['Attentif']
 				},
 
 				{
@@ -305,7 +305,7 @@
                             , url: 'http://en.wikipedia.org/wiki/Server-side_scripting'
 	                    }
 	                ]
-                    , description: 'Developing items (code) that executes on the server (server-side) instead of the user&raquo;s (client&raquo;s) machine.'
+                    , description: 'Developper du code qui s\'execute coté serveur.'
 					, stats: [
 						{
 							title: 'Reseau'
@@ -338,7 +338,7 @@
 							, value: 1
 						}
 					]
-					, talents: ['Beefcake']
+					, talents: ['Musclé']
 				},
 
 				{
@@ -418,7 +418,7 @@
 							, value: 1
 						}
 					]
-					, talents: ['XXL Knapsack']
+					, talents: ['Super Sac à dos']
 				},
 
 				{
@@ -462,7 +462,7 @@
 							, value: 5
 						}
 					]
-					, talents: ['Truthseeker']
+					, talents: ['Chercheur de vérité']
 				},
 				{
 					id: 17
@@ -505,7 +505,7 @@
 							, value: 1
 						}
 					]
-					, talents: ['Mindweaver']
+					, talents: ['Tisseur']
 				},
 
 				{
@@ -533,7 +533,7 @@
 							, value: 1
 						}
 					]
-					, talents: ['Mindreader']
+					, talents: ['Télépathie']
 				},
 				{
 					id: 19
@@ -569,11 +569,11 @@
 							, value: 3
 						}
 					]
-					, talents: ['Artistic']
+					, talents: ['Artiste']
 				},
 				{
 					id: 20
-					, title: 'Graphic Design Tools'
+					, title: 'Outils de design graphique'
 					, dependsOn: [19]
 	                , links: [
                         {
@@ -618,11 +618,11 @@
 							, value: 2
 						}
 					]
-					, talents: ['Conjurer']
+					, talents: ['Prestidigitateur']
 				},
 				{
 					id: 22
-					, title: 'Maitrise de l\'experience utilisateur'
+					, title: 'Maîtrise de l\'expérience utilisateur'
 					, dependsOn: [19, 21]
                     , description: 'You are capable of converting project requirements to an attractive design that promotes a pleasant user experience.'
 					, stats: [
@@ -661,7 +661,7 @@
 							, value: 2
 						}
 					]
-					, talents: ['Alchemist']
+					, talents: ['Alchimiste']
 				},
 
 				{
@@ -689,11 +689,11 @@
 							, value: 3
 						}
 					]
-					, talents: ['Stewardship']
+					, talents: ['Grand Intendant']
 				},
 				{
 					id: 25
-					, title: 'Deploiement'
+					, title: 'Déploiement'
 					, dependsOn: [24]
 	                , links: [
 		                {
@@ -725,12 +725,12 @@
 							, value: 1
 						}
 					]
-					, talents: ['Spectral Guide']
+					, talents: ['Téléporteur']
 				},
 
 				{
 					id: 26
-					, title: 'Maitrise du développement web'
+					, title: 'Maître du développement web'
 					, dependsOn: [4, 5, 10, 15, 22, 25]
 	                , links: [
 		                {
@@ -765,7 +765,7 @@
 							, value: 3
 						}
 					]
-					, talents: ['Demigod']
+					, talents: ['Demidieu']
 				}
 
 			]
