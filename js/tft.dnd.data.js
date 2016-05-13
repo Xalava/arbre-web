@@ -513,8 +513,8 @@
 					, title: 'Découverte utilisateur'
 					, maxPoints: 2
 					, rankDescriptions: [
-						'You know the right questions to ask, and use sketches to confirm your ideas.'
-						, 'You use advanced techniques like experience mapping to lead conversations with stakeholders.'
+						'Vous savez poser les bonnes questions, et utiliser des croquis pour confirmer vos idées'
+						, 'Vous utilisez des techniques avancées comme les parcours utilisateurs pour mener les conversations avec des parties prenantes.'
 					]
 	                , links: [
 	                 	{ 
@@ -522,8 +522,8 @@
 	                 		, url: 'http://www.adaptivepath.com/ideas/the-anatomy-of-an-experience-map'
 	                 	}
 	                ]
-                    , description: 'One of the first steps taken before anything is designed is to determine what the client (both the site requestor and the site user) wants and/or needs. Techniques include simple sketching, card-sortting and experience mapping.'
-					, stats: [
+                    , description: 'Avant de concevoir quoi que ce soit, il faut prendre le temps de comprendre le besoin du client et de l\'utilisateur final'
+                    , stats: [
 						{
 							title: 'Gestion'
 							, value: 2
@@ -618,7 +618,7 @@
 							, value: 2
 						}
 					]
-					, talents: ['Prestidigitateur']
+					, talents: ['Incantateur']
 				},
 				{
 					id: 22
